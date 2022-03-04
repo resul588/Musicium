@@ -40,7 +40,7 @@ const client = new Discord.Client({
     ],
     presence: {
       activity: {
-        name: `+help | musicium.eu`, 
+        name: `${require("./botconfig/config.json").token}help | ${require("./dashboard/settings.json").website.domain}`, 
         type: "PLAYING", 
       },
       status: "online"
